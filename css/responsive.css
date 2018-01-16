@@ -16,4 +16,7 @@
     .header-select { width: 160px; }
     #stickyTabRight { position: relative !important; top: 0 !important; }
     #stickyTabRight .nav-link { padding: .3rem .6rem }
+    .copy { display: block; }
+    .copy-link { display: block; margin-top: 1rem; }
+    footer a { margin-top: .3rem; margin-bottom: .3rem; }
 }

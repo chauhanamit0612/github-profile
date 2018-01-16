@@ -374,10 +374,13 @@ a:hover {
 .show-item {
     display: table-cell !important;
 }
-#heatmap, #heatmap .ch-month-label, #heatmap .ch-day-label {
+#heatmap {
+    color: #767676;
+    font-size: 12px
+}
+#heatmap .ch-month-label, #heatmap .ch-day-label {
     font-size: 10px;
     font-weight: 300;
-    color: #767676;
 }
 #heatmap .ch-month {
     margin-left: -15px;
@@ -405,4 +408,7 @@ a:hover {
     position: absolute;
     bottom: 0px;
     left: 0;
+}
+footer a { 
+    display: inline-block; 
 }
