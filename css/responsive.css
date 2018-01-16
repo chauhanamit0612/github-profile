@@ -1,0 +1,19 @@
+@media (max-width: 1200px ) {
+    #scroll { overflow: scroll; height: 160px; }
+    #headScroll { width: 610px; }
+}
+@media (max-width: 992px) {
+    .is-sticky #stickyTab { left: 270px; }
+    #stickyProfile { width: 230px !important; }
+    .profile-mini-card .pmc-item .pmc-name { width: 100px; }
+}
+@media (max-width: 767px ) {
+    .is-sticky #stickyTab { left: 120px; }
+    #stickyProfile { width: 100px !important; }
+    .profile-mini-card .pmc-item .pmc-name { display: none; }
+    .sm-tabs { display: none; }
+    .xs-select { display: block; }
+    .header-select { width: 160px; }
+    #stickyTabRight { position: relative !important; top: 0 !important; }
+    #stickyTabRight .nav-link { padding: .3rem .6rem }
+}
