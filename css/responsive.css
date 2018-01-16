@@ -4,7 +4,7 @@
 }
 @media (max-width: 992px) {
     .is-sticky #stickyTab { left: 270px; }
-    #stickyProfile { width: 230px !important; }
+    #stickyProfile { width: 200px !important; }
     .profile-mini-card .pmc-item .pmc-name { width: 100px; }
 }
 @media (max-width: 767px ) {
